@@ -1,0 +1,23 @@
+{
+  "name": "autotests",
+  "version": "1.0.0",
+  "main": "wdio.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@wdio/cli": "^9.0.9",
+    "@wdio/local-runner": "^9.0.9",
+    "@wdio/mocha-framework": "^9.0.8",
+    "@wdio/spec-reporter": "^9.0.8",
+    "chai": "^5.1.1",
+    "chromedriver": "^128.0.3",
+    "wdio-chromedriver-service": "^8.1.1"
+  }
+}
