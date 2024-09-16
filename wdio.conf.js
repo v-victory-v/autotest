@@ -49,10 +49,16 @@ exports.config = {
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://saucelabs.com/platform/platform-configurator
     //
-    capabilities: [{
-        // capabilities for local browser web tests
-        browserName: 'chrome' // or "firefox", "microsoftedge", "safari"
-    }],
+    capabilities: [
+        {
+          maxInstances: 1,
+          browserName: 'chrome',
+        },
+        {
+          maxInstances: 1,
+          browserName: 'firefox',
+        }
+      ],
 
     //
     // ===================

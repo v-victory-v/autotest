@@ -6,8 +6,10 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "test": "npx wdio run wdio.conf.js --spec test/specs/test.e2e.API.js",
+  "test2": "npx wdio run wdio.conf.js --spec test/specs/test.e2e.2task.js",
+  "test3": "npx wdio run wdio.conf.js --spec test/specs/test.e2e.js"
+},
   "author": "",
   "license": "ISC",
   "description": "",
@@ -19,5 +21,8 @@
     "chai": "^5.1.1",
     "chromedriver": "^128.0.3",
     "wdio-chromedriver-service": "^8.1.1"
+  },
+  "dependencies": {
+    "axios": "^1.7.7"
   }
 }
